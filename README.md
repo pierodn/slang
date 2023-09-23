@@ -1,10 +1,8 @@
 # SLANG
 Slang is a Simple Linear Algebra Notation library for Graphics programming in C++ based on the [OpenGL Shading Language (GLSL) specification](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.50.pdf).
 
-The intent is to provide a single header file with the classes and operators that enable you to write GLSL code like this in your C++ programs:
+The intent is to provide a single header file with the types and operators that enable you to write GLSL code like this in your C++ programs:
 ```C++
-#include <slang.h>
-
 const mat2 M2 = mat2(0.8, -0.6, 0.6, 0.8);
 
 float fbm(vec2 point, int octaves)
@@ -23,3 +21,5 @@ float fbm(vec2 point, int octaves)
     return a;
 }
 ```
+
+Applications often comprise components that operate on both the CPU and GPU, frequently requiring interaction between them. Consequently, it is not uncommon to encounter a codebase written in both C++ and GLSL, both of which are derived from the C language. Given C++'s robust expressive capabilities, it is feasible to equip it with the same familiar types and operators that its counterpart, the GPU-centric C-like language GLSL, employs. This alignment not only fosters consistency but also promotes conciseness and a more aesthetically pleasing coding style.
