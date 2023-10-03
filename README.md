@@ -1,5 +1,6 @@
-# SLANG
-Slang is a Simple Linear Algebra Notation library for Graphics programming in C++ based on the [OpenGL Shading Language (GLSL) specification](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.50.pdf).
+![image](https://github.com/pierodn/slang/assets/85252731/0dedb855-67ba-4701-9866-402376c5f4fa)
+___
+Slang is a **S**imple **L**inear **A**lgebra **N**otation library for **G**raphics programming in C++ based on the [OpenGL Shading Language (GLSL)](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.50.pdf).
 
 The intent is to provide a single header file with the types and operators that enable you to write GLSL code like this in your C++ programs:
 ```C++
