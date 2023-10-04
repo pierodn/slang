@@ -1,4 +1,4 @@
-![image](https://github.com/pierodn/slang/assets/85252731/0dedb855-67ba-4701-9866-402376c5f4fa)
+![image](https://github.com/pierodn/slang/assets/85252731/d52de734-6fd9-4595-8d34-1dc5c34a5fe0)
 ___
 Slang is a **S**imple **L**inear **A**lgebra **N**otation library for **G**raphics programming in C++ based on the [OpenGL Shading Language (GLSL)](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.50.pdf).
 
