@@ -3,7 +3,7 @@
 ___
 Slang is a **S**imple **L**inear **A**lgebra **N**otation for **G**raphics programming in C++ based on the [OpenGL Shading Language (GLSL)](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.50.pdf).
 
-The intent is to provide a single header file with the types, operators and functions that enable you to write GLSL code like the following in your C++ programs:
+The intent is to provide a single-header library with the types, operators and functions that enable you to write GLSL code like the following in your C++ programs:
 ```C++
 float fbm(vec2 point, int octaves)
 {
@@ -23,6 +23,5 @@ float fbm(vec2 point, int octaves)
     return a;
 }
 ```
-___
 ### Motivation
-Modern applications often comprise components that operate on both the CPU and GPU, also requiring interaction between them. Consequently, it is not uncommon to encounter a codebase written in both C++ and GLSL. Now, both languages derive from the C language and, given C++'s robust expressive capabilities, it is feasible to equip it with the same familiar types and operators that its counterpart, the GPU-centric GLSL, employs. This alignment not only fosters consistency but also promotes conciseness and a more aesthetically pleasing coding style. That's why Slang : )
+Modern applications often comprise components that operate on both the CPU and GPU, also requiring interaction between them. Consequently, it is not uncommon to encounter a codebase written in both C++ and GLSL. Now, both languages derive from the C language. But C++'s robust expressive capabilities makes it possible to equip it with the same familiar types and operators that its counterpart, the GPU-centric GLSL, employs. This alignment not only fosters consistency but also promotes conciseness and a more aesthetically pleasing coding style. That's why Slang.
