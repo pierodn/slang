@@ -17,7 +17,7 @@ The motivation is two folded:
 1. You may happen to write a C++ application in some domains like graphics programming, image processing, search engine ranking, signal analysis, artificial intelligence, quantum computing, genetics, graph theory, electrical circuits, greedy algorithms, traffic flow, markov vhain, leonteif economic model, community detection, linear regression, linear programming, cryptography, error correcting codes (the list goes on) and find out that liner algebra is basically your *swiss army knife* when it comes to these things BUT is not built-in in C++ as it is in GLSL, for example.
 2. You may happen to have in your application components in both CPU and GPU (likely interacting with each other) and find out that it would be nice to be allowed to use the same programming style to foster consistency, conciseness, readibility. And this is actually possible because C++'s robust expressive capabilities allows to equip it with the same types and operators that its counterpart, the GPU-centric GLSL, employs.
 
-And here is why Slang.
+And here is why **Slang**, a slang of C++ that mimes GLSL expressivity and enables the programmer to use liner algebra. 
 
 ### History
 It all started in 2008 when I crafted a LOD algorithm for terrains, designed a fractal terrain generator, and developed a 3D engine for rendering. As I delved into this project, a desire for consistency and a pleasing coding style led me to contemplate the idea of having the same GLSL types available in C++. To my surprise, I couldn't find a suitable alternative, prompting me to embark on the journey of creating my own set of GLSL types and operators for C++.
