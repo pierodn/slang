@@ -14,10 +14,10 @@ vec3 rotate(vec3 point, vec3 axis, float angle)
 ```
 ### Motivation
 The motivation is two folded:
-1. You may happen to write C++ applications in some domains like graphics programming, procedural generation, image processing, signal processing, search engine ranking, graph theory, electrical circuits, greedy algorithms, traffic flow, markov chain, leonteif economic model, community detection, linear regression, linear programming, error correcting codes, cryptography, artificial intelligence, quantum computing, genetics (the list goes on and on) and find out that linear algebra is basically your *swiss army knife* when it comes to these things. BUT it is not natively built-in in C++ (as it is in GLSL, for example).
+1. You may happen to write C++ applications in some domains like graphics programming, procedural generation, image processing, signal processing, search engine ranking, graph theory, electrical circuits, greedy algorithms, traffic flow, markov chain, leonteif economic model, community detection, linear regression, linear programming, error correcting codes, cryptography, artificial intelligence, quantum computing, genetics (the list goes on and on...) and find out that linear algebra is basically your *swiss army knife* when it comes to these things. BUT it is not natively built-in in C++ 😲
 2. You may happen to have in your application components in both CPU and GPU (likely interacting with each other) and find out that it would be nice to be allowed to use the same programming style to foster consistency, conciseness, readibility. And this is actually possible because C++'s robust expressive capabilities allows to equip it with the same types and operators that its counterpart, the GPU-centric GLSL, employs.
 
-And here is why **Slang**, a *slang* of C++ that speaks linear algebra, mimes that same expressivity offered by GLSL (which is an OpenGL standard) and enables the programmer to write linear algebra code simply. 
+And here is why **Slang**. A *slang* of C++ that speaks linear algebra, mimes that same expressivity offered by GLSL (which is an OpenGL standard) and enables the programmer to write linear algebra code simply. 
 
 ### History
 In 2008, I developed a terrain generator and a 3D rendering engine called [gdevice](https://github.com/pierodn/gdevice). While working on this project, I wanted to make the code more consistent and readable. This led me to consider bringing GLSL types into C++. Surprisingly, I couldn't find a suitable solution, so I decided to create my own GLSL types and operators for C++.
