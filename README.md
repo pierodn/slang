@@ -5,12 +5,11 @@ Slang is a **S**imple **L**inear **A**lgebra **N**otation for **G**raphics progr
 
 It was developed with the intent to provide C++ a linear algebra library in one single header while implementing the types, operators and functions that comply with the GLSL specification so to enable you to write GLSL code like this in your C++ programs:
 ```GLSL
-// Rotation by quaternion
-vec3 rotate(vec3 point, vec3 axis, float angle)
+vec3 rotate(vec3 position, vec3 axis, float angle)
 {
     float h = 0.5 * angle * PI/180;
     vec4 q = vec4(axis * sin(h), cos(h)); 	
-    return point + 2.0 * cross(q.xyz, cross(q.xyz, point) + q.w * point);
+    return position + 2.0 * cross(q.xyz, cross(q.xyz, position) + q.w * position);
 }
 ```
 ### Motivation
