@@ -22,4 +22,4 @@ And here is why **Slang**. A *slang* of C++ that speaks linear algebra, mimes th
 ### History
 In 2008, I developed a terrain generator and a 3D rendering engine called [gdevice](https://github.com/pierodn/gdevice). While working on this project, I wanted to make the code more consistent and readable. This led me to consider bringing GLSL types into C++. Surprisingly, I couldn't find a suitable solution, so I decided to create my own GLSL types and operators for C++.
 
-Now, in 2023, years have passed, and there are new alternatives available. However, I'm still not satisfied with these options and continue to search for a solution that matches my vision.
+Despite the years that have passed and the new alternatives that have emerged, I am not satisfied with the neatness, leanness, and efficiency of these options. I have therefore decided to maintain and share this elegant solution, which still aligns with my vision.
