@@ -19,6 +19,13 @@ The motivation is twofold:
 
 And here is why **Slang**. A *slang* of C++ that speaks linear algebra, mimes that same expressivity offered by GLSL (which is an OpenGL standard) and enables the programmer to write linear algebra code simply. 
 
+### Sponsor
+As you can imagine, this is something I pursue in my free time. If you find what I do useful, or if you simply care about empowering creative people to keep building and innovating, please consider supporting a few hours of development or just offering a cup of coffee.
+
+Thank you!
+
+![donate](https://github.com/user-attachments/assets/d4f11a78-c1b6-4c04-b032-c415947f2d0b)
+
 ### History
 In 2008, I developed a terrain generator and a 3D rendering engine called [gdevice](https://github.com/pierodn/gdevice). While working on this project, I wanted to make the code more consistent and readable. This led me to consider bringing GLSL types into C++. Surprisingly, I couldn't find a suitable solution, so I decided to create my own GLSL types and operators for C++.
 
