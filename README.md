@@ -20,7 +20,7 @@ The motivation is twofold:
 And here is why **Slang**. A *slang* of C++ tailored for linear algebra that mirrors the expressiveness of GLSL (an OpenGL standard) and enables developers to write linear algebra code with simplicity and clarity. 
 
 ### Sponsor
-As you can imagine, this is something I pursue in my free time. If you find what I do useful, or if you simply care about empowering creative people to keep building and innovating, please consider supporting a few hours of development or just offering a cup of coffee.
+If you find what I do useful, or if you simply care about empowering creative people to keep building and innovating, please consider supporting a few hours of development or just offering a cup of coffee.
 
 Thank you!
 
