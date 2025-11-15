@@ -14,13 +14,13 @@ vec3 rotate(vec3 position, vec3 axis, float angle)
 ```
 ### Motivation
 The motivation is twofold:
-1. You may happen to write C++ applications in some domains like graphics programming, procedural generation, image processing, signal processing, search engine ranking, graph theory, electrical circuits, greedy algorithms, traffic flow, markov chain, leonteif economic model, community detection, linear regression, linear programming, error correcting codes, cryptography, artificial intelligence, quantum computing, genetics (the list goes on and on) and find out that linear algebra is basically your *swiss army knife* when it comes to these things. BUT it is not natively built-in in C++.
+1. You may happen to develop C++ applications in some domains like graphics programming, procedural generation, image processing, signal processing, search engine ranking, graph theory, electrical circuits, greedy algorithms, traffic flow, markov chain, leonteif economic model, community detection, linear regression, linear programming, error correcting codes, cryptography, artificial intelligence, quantum computing, genetics (the list goes on and on) and find out that linear algebra is basically your *swiss army knife* when it comes to these things. BUT it is not natively built-in in C++.
 2. You may happen to have in your application components running on both the CPU and GPU that interact with each other and realize that it would be beneficial to adopt a unified programming style to improve consistency, conciseness, and readability. And this is actually possible because C++'s expressive capabilities allow it to closely emulate the types and operators used in its GPU-oriented counterpart, GLSL.
 
 And here is why **Slang**. A *slang* of C++ tailored for linear algebra that mirrors the expressiveness of GLSL (an OpenGL standard) and enables developers to write linear algebra code with simplicity and clarity. 
 
 ### Sponsor
-If you find what I do useful, or if you simply care about empowering creative people to keep building and innovating, please consider supporting a few hours of development or just offering a cup of coffee.
+If you find what I do useful, or if you simply care about helping creative people to keep building and innovating, please consider supporting a few hours of development or just offering a cup of coffee.
 
 Thank you!
 
